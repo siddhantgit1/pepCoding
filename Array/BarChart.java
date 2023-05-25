@@ -10,13 +10,24 @@ public class BarChart {
         for(int i = 0; i < arr.length; i++){
             arr[i] = sc.nextInt();
         }
+        int max = arr[0];
+        for(int i = 1; i < arr.length; i++){
+            if(arr[i] > max){
+                max = arr[i];
+            } 
+        }
 
-        for(int i = 0; i < arr.length; i++){
+        for(int j = max; j >= 1; j--){
 
-            for(int j = 0; j < arr[i]; j++){
-                System.out.println("*");
+            for(int i = 0; i < arr.length; i++){
+                if(arr[i] >= j){
+                    System.out.print("*\t");
+                }else{
+                    System.out.print("\t");
+                }
             }
-            System.out.print("\t");
+            System.out.println();
+            
         }
     }
 }
