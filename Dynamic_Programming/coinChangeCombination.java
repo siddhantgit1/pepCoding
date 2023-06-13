@@ -3,7 +3,7 @@ package Dynamic_Programming;
 import java.util.Scanner;
 
 public class coinChangeCombination {
-    public static void main(String[] args) {
+coinChange    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         
