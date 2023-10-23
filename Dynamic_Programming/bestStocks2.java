@@ -8,7 +8,11 @@ public class bestStocks2 {
         int n = sc.nextInt();
 
         int[] prices = new int[n];
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++)
+        
+        
+        
+        {
             prices[i] = sc.nextInt();
         }
 
